@@ -8,24 +8,21 @@ body {
     flex-direction: column;
 }
 
-/* Container do chat */
 #chat {
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 600px; /* Aumento da largura para ocupar mais espaço */
+    width: 600px; 
     padding: 20px;
-    max-width: 90%; /* Limita o máximo a 90% da largura da tela */
+    max-width: 90%; 
 }
 
-/* Título do chat */
 h1 {
     text-align: center;
     font-size: 1.5rem;
     margin-bottom: 20px;
 }
 
-/* Container dos elementos de mensagem */
 #messages {
     max-height: 300px;
     min-height: 500px; 
@@ -36,7 +33,6 @@ h1 {
     margin-bottom: 10px;
 }
 
-/* Estilos para as mensagens */
 .message {
     background-color: #f0f0f0;
     padding: 10px;
@@ -53,14 +49,12 @@ h1 {
     background-color: #cfefff;
 }
 
-/* Container do campo de input e botão */
 #input-container {
     display: flex;
     align-items: center;
     margin-top: 10px;
 }
 
-/* Estilos para o campo de input */
 #input {
     flex: 1;
     padding: 10px;
@@ -69,7 +63,6 @@ h1 {
     border-radius: 4px;
 }
 
-/* Estilos para o botão */
 button {
     background-color: #007bff;
     color: #fff;
@@ -85,18 +78,17 @@ button:hover {
     background-color: #0056b3;
 }
 
-/* Estilos para o ícone de carregamento */
 #loading {
-    display: flex; /* Mudança para flex para alinhar os itens verticalmente */
+    display: flex; 
     align-items: center;
-    justify-content: center; /* Centralizar horizontalmente */
+    justify-content: center; 
     margin-top: 10px;
     font-size: 0.9rem;
     color: #666;
 }
 
 #loading.hidden {
-    display: none; /* Ocultar o elemento quando a classe hidden está presente */
+    display: none; 
 }
 
 #loading .fa-spinner {

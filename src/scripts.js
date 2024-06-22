@@ -1,5 +1,3 @@
-// import API_KEY from './helpers'; 
-
 document.addEventListener("DOMContentLoaded", async () => {
     const inputField = document.getElementById("input");
     const messagesContainer = document.getElementById("messages");
